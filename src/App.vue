@@ -1,15 +1,8 @@
 <template>
-  <p>Server status: {{ status }}</p>
+  <iz-server-status></iz-server-status>
 </template>
 
 <script>
-export default {
-  data() {
-    return {
-      status: "Critical"
-    };
-  }
-};
 </script>
 
 <style>
